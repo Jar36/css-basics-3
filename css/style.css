@@ -27,6 +27,17 @@ nav {
   display: inline-block;
   background: #fff;
 }
+.restaurant-list > .location:first-child {
+  margin-top: -5px;
+}
+
+.location {
+  transition: all .3s;
+}
+
+.location:hover {
+  background: #b2b2b2;
+}
 
 .location .content{
   width: 80%;
